@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useNavigate } from 'react-router-dom';
+import { Link, useLoaderData, useNavigate } from 'react-router-dom';
 
 const SeeMore = () => {
     const post = useLoaderData()
@@ -11,6 +11,7 @@ const SeeMore = () => {
         <div>
             <h3>{post.body} </h3>
             <button onClick={Goback}>Go back</button>
+            <Link to="/">Go Home</Link>
         </div>
     );
 };

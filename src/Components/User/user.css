@@ -1,0 +1,15 @@
+.flex{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+
+.flex h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.flex p {
+    font-size: 16px;
+    font-weight: 500;
+}

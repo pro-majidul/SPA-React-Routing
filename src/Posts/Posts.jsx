@@ -9,7 +9,7 @@ const Posts = () => {
             <h3> All Posts {posts.length}</h3>
             <div className='users'>
                 {
-                    posts.map(post => <Post post={post} key={post.userId}></Post>)
+                    posts.map(post => <Post post={post} key={post.id}></Post>)
                 }
             </div>
         </div>

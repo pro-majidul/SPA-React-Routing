@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link, useLoaderData, useNavigate } from 'react-router-dom';
+import { Link, useLoaderData, useNavigate, useParams } from 'react-router-dom';
 
 const SeeMore = () => {
     const post = useLoaderData()
     const nevigate = useNavigate()
+    const {id} = useParams()
+    console.log(id);
     const Goback = () =>{
         nevigate(-1)
     }
